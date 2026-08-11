@@ -27,7 +27,6 @@ coverage.html
 
 # IDE
 .idea/
-.vscode/
 *.swp
 *.swo
 *~
@@ -37,8 +36,6 @@ coverage.html
 Thumbs.db
 
 # Environment / secrets
-.env
-.env.*
 testdata/llm.yaml
 configs/config_self.yaml
 
@@ -63,3 +60,5 @@ __debug_bin*
 tasks/essay_ai_workplace/
 格子间里的*.txt
 格子间里的*.docx
+config.bat
+node_modules
